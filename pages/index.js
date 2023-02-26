@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import getApi from "../lib/api"
 import styles from '../styles/result.module.css'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 // export default function Beer() {
 const Beer = () => {
@@ -55,7 +55,7 @@ const Beer = () => {
                         ))}
                         <p><a href={selectedBeer.image_url}>写真のURL</a></p>
                     </ul>
-                    <Image
+                    {/* <Image
                         // src={selectedBeer.image_url}
                         alt=""
                         style={{
@@ -64,7 +64,7 @@ const Beer = () => {
                         }}
                         width={800}
                         height={100}
-                    />
+                    /> */}
                 </div>
             )
             }
